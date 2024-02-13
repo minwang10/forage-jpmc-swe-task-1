@@ -319,6 +319,7 @@ class App(object):
                 'stock': 'DEF',
                 'timestamp': str(t),
                 'top_bid': bids2 and {
+                    
                     'price': bids2[0][0],
                     'size': bids2[0][1]
                 },
